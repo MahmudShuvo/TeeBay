@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import AddProductForm from './AddProductForm';
 import UserProductList from '../pages/UserProducts';
+import EditProductForm from './EditProductForm';
 
 interface Product {
   id: number;
@@ -43,6 +44,7 @@ const Dashboard: React.FC = () => {
       <h1 className="text-3xl font-bold mb-8 text-center mt-5">Dashboard</h1>
       <UserProductList />
       <AddProductForm onSave={handleSave} />
+      
     </div>
   );
 };
