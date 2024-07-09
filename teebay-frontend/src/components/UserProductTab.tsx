@@ -22,24 +22,6 @@ function UserProductTab() {
       <Tabs.Item active title="Lent">
         <LentProducts/>
       </Tabs.Item>
-      {/* <Tabs.Item title="Dashboard" icon={MdDashboard}>
-        This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-        control the content visibility and styling.
-      </Tabs.Item>
-      <Tabs.Item title="Settings" icon={HiAdjustments}>
-        This is <span className="font-medium text-gray-800 dark:text-white">Settings tab's associated content</span>.
-        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-        control the content visibility and styling.
-      </Tabs.Item>
-      <Tabs.Item title="Contacts" icon={HiClipboardList}>
-        This is <span className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</span>.
-        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-        control the content visibility and styling.
-      </Tabs.Item>
-      <Tabs.Item disabled title="Disabled">
-        Disabled content
-      </Tabs.Item> */}
     </Tabs>
   );
 }
