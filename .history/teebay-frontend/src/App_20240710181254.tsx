@@ -61,7 +61,7 @@ export function DashboardLayout() {
                 <Sidebar.ItemGroup className="bg-cyan-200 ">
                   <Sidebar.Item icon={FaUserCircle}>
                     {user?.name}
-                    <span className="block ">{user?.email}</span>
+                    <span className="block">{user?.email}</span>
                   </Sidebar.Item>
                 </Sidebar.ItemGroup>
                 <Sidebar.ItemGroup>

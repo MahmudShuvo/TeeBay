@@ -59,7 +59,7 @@ export function DashboardLayout() {
             <Sidebar aria-label="Default sidebar example">
               <Sidebar.Items>
                 <Sidebar.ItemGroup className="bg-cyan-200 ">
-                  <Sidebar.Item icon={FaUserCircle}>
+                  <Sidebar.Item icon={FaUserCircle} cl>
                     {user?.name}
                     <span className="block ">{user?.email}</span>
                   </Sidebar.Item>

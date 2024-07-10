@@ -58,10 +58,10 @@ export function DashboardLayout() {
           <div className="col-span-1 shadow flex border border-green-400 -ml-10">
             <Sidebar aria-label="Default sidebar example">
               <Sidebar.Items>
-                <Sidebar.ItemGroup className="bg-cyan-200 ">
+                <Sidebar.ItemGroup className="bg-cyan-100">
                   <Sidebar.Item icon={FaUserCircle}>
                     {user?.name}
-                    <span className="block ">{user?.email}</span>
+                    <span className="block">{user?.email}</span>
                   </Sidebar.Item>
                 </Sidebar.ItemGroup>
                 <Sidebar.ItemGroup>
