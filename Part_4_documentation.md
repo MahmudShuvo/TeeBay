@@ -2,7 +2,7 @@
 
 A full-stack e-commerce application with crud(create,read,update,delete) operations, buy/rent/sell/lent functionalities for user dashboard. Login secured, rent and buy options are optimized.
 
-Frontend (technologies): React Js, React router, TypeScript, Tailwind CSS, Flowbite(library), Apollo Client, GraphQL. 
+Frontend (technologies): React Js, React router, TypeScript, Tailwind CSS, Flowbite(library), Apollo Client, GraphQL.\n 
 
 Backend(technologies): Postgresql, Express JS, Prisma, GraphQL, Apollo server. 
 
