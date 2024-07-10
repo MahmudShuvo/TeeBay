@@ -7,7 +7,7 @@ function MainNav() {
   return (
     <Navbar fluid rounded className="bg-gray-300">
       <Navbar.Brand >
-        <span className="self-center whitespace-nowrap text-3xl font-bold dark:text-white">Tee<span className="text-green-500">bay</span></span>
+        <span className="self-center whitespace-nowrap text-3xl font-bold dark:text-white">Tee<span className="text-ora">bay</span></span>
       </Navbar.Brand>
       <Navbar.Collapse>
         <Navbar.Link href="/" active>

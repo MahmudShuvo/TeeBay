@@ -23,6 +23,7 @@ const MyProducts: React.FC = () => {
 
                 <AddProductForm onSave={handleSave}/>
             </div>
+        
             {
                 products?.userProducts?.map((product: Product) => <UserOwnProductCard key={product.id} refetch={refetch}
                                                                              product={product}/>)
