@@ -10,6 +10,24 @@ import {
 import "./index.css";
 import { setContext } from "@apollo/client/link/context/index.js";
 
+// const httpLink = new HttpLink({
+//   uri: 'http://localhost:4000/graphql',
+// });
+// const authMiddleware = new ApolloLink((operation, forward) => {
+//   const token = window.localStorage.getItem('token');
+//   operation.setContext({
+//     headers: {
+//       authorization: token ? `Bearer ${token}` : '',
+//     }
+//   });
+//   return forward(operation);
+// });
+
+// const client = new ApolloClient({
+//     uri: 'http://localhost:4000/graphql',
+//     cache: new InMemoryCache(),
+// });
+
 const httpLink = createHttpLink({
   uri: "http://localhost:4000/graphql",
 });

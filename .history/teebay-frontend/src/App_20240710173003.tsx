@@ -53,9 +53,9 @@ export function DashboardLayout() {
     <div>
       <MainNav />
 
-      <div className="min-h-screen mx-auto container text-sm mt-5">
-        <div className="grid grid-cols-4 gap-x-10">
-          <div className="col-span-1 shadow flex border border-green-400 -ml-12 border-double mr-2">
+      <div className="min-h-screen mx-auto container text-sm">
+        <div className="grid grid-cols-4 gap-x-8">
+          <div className="col-span-1 shadow flex border border-green-400 -ml-4">
             <Sidebar aria-label="Default sidebar example">
               <Sidebar.Items>
                 <Sidebar.ItemGroup>

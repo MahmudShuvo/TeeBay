@@ -16,7 +16,6 @@ import { Login } from "./components/Login.tsx";
 import SignUp from "./components/SignUp.tsx";
 import MainNav from "./components/MainNav.tsx";
 import HomePage from "./pages/HomePage.tsx";
-import { FaUserCircle } from "react-icons/fa";
 
 export default function App() {
   return (
@@ -53,13 +52,13 @@ export function DashboardLayout() {
     <div>
       <MainNav />
 
-      <div className="min-h-screen mx-auto container text-sm mt-5">
-        <div className="grid grid-cols-4 gap-x-10">
-          <div className="col-span-1 shadow flex border border-green-400 -ml-12 border-double mr-2">
+      <div className="min-h-screen mx-auto container text-sm">
+        <div className="grid grid-cols-4 gap-x-8">
+          <div className="col-span-1 shadow mr-5">
             <Sidebar aria-label="Default sidebar example">
               <Sidebar.Items>
                 <Sidebar.ItemGroup>
-                  <Sidebar.Item icon={FaUserCircle}>
+                  <Sidebar.Item icon={HiChartPie}>
                     {user?.name}
                     <span className="block">{user?.email}</span>
                   </Sidebar.Item>
