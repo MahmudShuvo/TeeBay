@@ -3,7 +3,7 @@ Must have Node.JS (latest version preferable), PostgreSQL installed and running,
 1. Clone the repository. <br/>
 2. cd teebay-backend. Install yarn using "yarn install" command. <br/>
 3. set up env variable: DATABASE_URL="postgresql://postgres:MHshuvo@localhost:5432/test?schema=public"<br/>
-4.Set up prisma => "npx prisma generate", "npx prisma migrate dev --name init" <br/>
+4. Set up prisma => "npx prisma generate", "npx prisma migrate dev --name init" <br/>
 5. Run the server using "yarn run dev" command. This will start the server at `http://localhost:4000`.<br/>
 
 You can access the GraphQL Playground to interact with your API at `http://localhost:4000/graphql`.<br/>
