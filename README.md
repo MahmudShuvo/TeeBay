@@ -11,5 +11,5 @@ You can access the GraphQL Playground to interact with your API at `http://local
 For frontend: <br/>
 1. clone the repository. <br/>
 2. cd teebay-frontend. <br/>
-3. Intsll yarn. Run the command "yarn run dev". It will start the server at ;http://localhost:5173/'
+3. Intsll yarn. Run the command "yarn run dev". It will start the server at 'http://localhost:5173/'
 
