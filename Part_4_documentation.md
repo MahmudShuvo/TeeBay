@@ -19,8 +19,11 @@ Delete Product: Deleting the product by calling the DeleteProduct mutation with 
 Part 3:
 
 All product added by users: used Apollo useQuery hook to fetch the products from your backend. Flowbite cards being used.<br/>
+
 Buy product: ConfirmBuy enhances user experience by providing a clear, interactive confirmation process for purchasing products while handling potential errors like a user can't buy or rent his own product. Also a user must have to login to buy/rent a product.<br/>
+
 Rent product: The return date for rent was set to be at least a day more than the from date. The dates before the from date made unclickable. If a user change its from date more than once than made the return date null again. By that way it can handle errors.<br/>
+
 User Dashboard: UserProductTab component uses Tabs from flowbite-react to create a tabbed interface. It displays tabs for "Bought," "Sold," "Borrowed," and "Lent," each linked to components. In addition there is a feature for each user that the person who will buy their product will be displayed. 
 
 
