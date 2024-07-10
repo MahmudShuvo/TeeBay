@@ -54,7 +54,8 @@ export function Login() {
                 <div className="mt-4 text-center">
                     <p>
                         Don't have an account? <a href="/signup" className="text-blue-600 hover:underline">
-                        Sign Up </a>
+                        Sign
+                        Up</a>
                     </p>
                 </div>
             </div>

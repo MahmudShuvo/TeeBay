@@ -102,7 +102,7 @@ const RentModal = ({isOpen, onClose, handleConfirm, product}: {
         })
     }
     return (
-        <Modal show={isOpen} size="2xl" onClose={onClose}>
+        <Modal show={isOpen}  onClose={onClose} className="w-400 h-400">
             <Modal.Header>
                 <h3 className="text-lg font-semibold">Rent Details</h3>
                 {error && <h3 className="text-lg font-semibold text-red-500">{error?.message}</h3>}

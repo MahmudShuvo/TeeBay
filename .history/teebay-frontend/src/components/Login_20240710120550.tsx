@@ -49,12 +49,13 @@ export function Login() {
                         <Checkbox id="remember"/>
                         <Label htmlFor="remember" className="ml-2">Remember me</Label>
                     </div> */}
-                    <Button type="submit" color="blue" className="w-full mt-5">Submit</Button>
+                    <Button type="submit" color="blue" className="w- mt-5">Submit</Button>
                 </form>
                 <div className="mt-4 text-center">
                     <p>
-                        Don't have an account? <a href="/signup" className="text-blue-600 hover:underline">
-                        Sign Up </a>
+                        Don't have an account? <a href="/signup"
+                                                  className="text-blue-600 hover:underline">Sign
+                        Up</a>
                     </p>
                 </div>
             </div>

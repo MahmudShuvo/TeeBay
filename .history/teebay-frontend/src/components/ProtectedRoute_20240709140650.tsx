@@ -10,7 +10,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({children}) => {
     const {user, loading} = useAuth();
 
     if (loading) {
-        return <div>Loading...</div>; 
+        return <div>Loading...</div>; // You can replace this with a proper loading indicator
     }
 
     if (!user) {
