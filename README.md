@@ -13,3 +13,6 @@ For frontend: <br/>
 2. cd teebay-frontend. <br/>
 3. Install yarn using "yarn install". Run the command "yarn run dev". It will start the server at `http://localhost:5173/`.
 
+
+Demo video link :  `https://youtu.be/P_AUN3Wq9ls`
+
